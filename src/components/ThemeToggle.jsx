@@ -14,6 +14,8 @@ const ThemeToggle = () => {
     // { theme: "light", toggleTheme: function toggleTheme() { ... } }
     const { theme, toggleTheme } = useContext(ThemeContext);
 
+
+    // Styles
     const styles = {
         light: {
             backgroundColor: "#ffffff",
